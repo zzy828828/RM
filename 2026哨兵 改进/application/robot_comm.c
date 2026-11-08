@@ -17,8 +17,8 @@
 #define ROBOT_COMM_CMD_ID               0x01U
 #define ROBOT_COMM_IMU_ID               0x02U
 #define ROBOT_COMM_ROBOT_INFO_ID        0x03U
-#define ROBOT_COMM_JOINT_STATE_ID       0x1DU
-#define ROBOT_COMM_ROBOT_MOTION_ID      0x1EU
+#define ROBOT_COMM_JOINT_STATE_ID       0x0CU
+#define ROBOT_COMM_ROBOT_MOTION_ID      0x08U
 
 #define ROBOT_COMM_CMD_PACKET_SIZE      49U
 #define ROBOT_COMM_CMD_DATA_SIZE        43U

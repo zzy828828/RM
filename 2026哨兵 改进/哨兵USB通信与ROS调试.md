@@ -24,8 +24,8 @@ STM32 是 USB Device，Jetson 是 USB Host。USB CDC 的线路参数不受 YAML 
 | Jetson 到下位机 | `0x01` | 底盘 `vx/vy/wz`、云台、发射和视觉状态 |
 | 下位机到 Jetson | `0x02` | IMU yaw/pitch/roll 与三轴角速度 |
 | 下位机到 Jetson | `0x03` | 机器人机构类型与底盘/云台/发射在线状态 |
-| 下位机到 Jetson | `0x1D` | yaw/pitch 关节角 |
-| 下位机到 Jetson | `0x1E` | 底盘实测 `vx/vy/wz` |
+| 下位机到 Jetson | `0x0C` | yaw/pitch 关节角 |
+| 下位机到 Jetson | `0x08` | 底盘实测 `vx/vy/wz` |
 
 所有帧均为小端序，结构为：
 
